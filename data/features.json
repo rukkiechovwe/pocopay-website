@@ -1,0 +1,46 @@
+{
+   "features": [
+      {
+         "img": "./assets/images/illustrations/payment.svg",
+         "feature": "Payment",
+         "available": true,
+         "title": "Send and receive money",
+         "description": "With our payment link, storefront and invoicing feature, You can receive payments from your customers with ease"
+      },
+      {
+         "img": "./assets/images/illustrations/bookkeeping.svg",
+         "feature": "Bookkeeping",
+         "available": true,
+         "title": "Keep track of your income and expenses",
+         "description": "Pocopay's bookkeeping feature allows you to keep track of your income and expenses with powerful analtyics and insight tools to help you understand how your business is doing financially"
+      },
+      {
+         "img": "./assets/images/illustrations/storefront.svg",
+         "feature": "Storefront",
+         "available": true,
+         "title": "E-commerce checkout page",
+         "description": "E-commerce checkout page that allows you to list your products or services for sale giving your business access to a wide range of customers on the internet"
+      },
+      {
+         "img": "./assets/images/illustrations/paylink.svg",
+         "feature": "Paylink",
+         "available": true,
+         "title": "One-time and reccuring payment links",
+         "description": "Payment links enable you to receive one-time or recurring payments through Instagram, Twitter, WhatsApp, E-mail and more from your customers/clients "
+      },
+      {
+         "img": "./assets/images/illustrations/crm.svg",
+         "feature": "CRM",
+         "available": false,
+         "title": "Manage your customers",
+         "description": "Send automatic debt reminders to debtors, inform customers of new product offers via email or SMS marketing, send invoices, generate receipt etc."
+      },
+      {
+         "img": "./assets/images/illustrations/loans.svg",
+         "feature": "Micro Loans",
+         "available": false,
+         "title": "Get loans for your business",
+         "description": "Easy access to loans to help you grow your business"
+      }
+   ]
+}

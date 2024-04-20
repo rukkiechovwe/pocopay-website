@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Management and payment software for your business.</title>
+    <link rel="icon" href="/icon1.ico" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js"></script>
+  </head>
+  <body>
+    <!-- <div class="cursor"></div> -->
+    <!-- header section start -->
+    <header class="home_header">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <img src="./assets/images/logo/8.png" alt="logo" />
+          </div>
+          <div class="hamburger_menu">
+            <span id="menu_line_1" class=""></span>
+            <span id="menu_line_2" class=""></span>
+            <span id="menu_line_3" class=""></span>
+          </div>
+          <ul class="nav_list">
+            <li class="nav_list_item">
+              <a href="#">
+                <span>Features</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    fill="#1d1e25"
+                    d="M17.919 8.18H6.079c-.96 0-1.44 1.16-.76 1.84l5.18 5.18c.83.83 2.18.83 3.01 0l1.97-1.97 3.21-3.21c.67-.68.19-1.84-.77-1.84z"
+                  ></path></svg
+              ></a>
+              <ul class="nav_list_hover">
+                <div class="nav_list_hover_wrapper">
+                  <div class="container">
+                    <li class="nav_list_hover_item">
+                      <a href="#">
+                        <div
+                          class="nav_list_item_img"
+                          style="background-color: #e5ffff85"
+                        >
+                          <img
+                            src="./assets/images/icon/money.svg"
+                            alt="money"
+                          />
+                        </div>
+                        <div>
+                          <h5>Payment</h5>
+                          <span>Send and receive money from customers</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav_list_hover_item">
+                      <a href="#">
+                        <div
+                          class="nav_list_item_img"
+                          style="background-color: #ffeacb85"
+                        >
+                          <img src="./assets/images/icon/book.svg" alt="book" />
+                        </div>
+                        <div>
+                          <h5>Bookkeeping</h5>
+                          <span
+                            >Keep track of your business income and
+                            expenses</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav_list_hover_item">
+                      <a href="#">
+                        <div
+                          class="nav_list_item_img"
+                          style="background-color: #ead4fd85"
+                        >
+                          <img src="./assets/images/icon/cart.svg" alt="cart" />
+                        </div>
+                        <div>
+                          <h5>Storefront</h5>
+                          <span
+                            >Sell online with our simple e-commerce
+                            storefront</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav_list_hover_item">
+                      <a href="#">
+                        <div
+                          class="nav_list_item_img"
+                          style="background-color: #ffdccf85"
+                        >
+                          <img src="./assets/images/icon/link.svg" alt="card" />
+                        </div>
+                        <div>
+                          <h5>Paylink</h5>
+                          <span>Create links to receive payments</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav_list_hover_item">
+                      <a href="#">
+                        <div
+                          class="nav_list_item_img"
+                          style="background-color: #c7ffe785"
+                        >
+                          <img
+                            src="./assets/images/icon/customers.svg"
+                            alt="customers"
+                          />
+                        </div>
+                        <div>
+                          <h5>CRM</h5>
+                          <span
+                            >Manage your customers relationship in a better
+                            way</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav_list_hover_item">
+                      <a href="#">
+                        <div
+                          class="nav_list_item_img"
+                          style="background-color: #add8e685"
+                        >
+                          <img
+                            src="./assets/images/icon/wallet.svg"
+                            alt="wallet"
+                          />
+                        </div>
+                        <div>
+                          <h5>Micro Loans</h5>
+                          <span
+                            >Get access to micro loans to run your
+                            business</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <!-- <li class="nav_list_hover_item">
+                      <a href="#">
+                        <div
+                          class="nav_list_item_img"
+                          style="background-color: #d4fd9885"
+                        >
+                          <img
+                            src="./assets/images/icon/calculator.svg"
+                            alt="budget"
+                          />
+                        </div>
+                        <div>
+                          <h5>Budget Tracker</h5>
+                          <span>Budget tracker for your business</span>
+                        </div>
+                      </a>
+                    </li> -->
+                    <!-- <li class="nav_list_hover_item">
+                      <a href="#">
+                        <div
+                          class="nav_list_item_img"
+                          style="background-color: #cc98fd85"
+                        ></div>
+                        <div>
+                          <h5>Payroll</h5>
+                          <span>
+                            copy description
+                          </span>
+                        </div>
+                      </a>
+                    </li> -->
+                  </div>
+                </div>
+              </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#faq">Faq</a></li>
+            <li>
+              <a href="#get_app">
+                <!-- <a href="https://forms.gle/sMdx1b3F9y8rHXoaA" target="_blank"> -->
+                <!-- <button class="primary_button">Get Early Access</button> -->
+                <button class="primary_button">Get Started</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- header section end -->
+    <!-- banner section start -->
+    <section class="home_banner">
+      <div class="container">
+        <div class="bg-opac">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#caffe869"
+              fill-opacity="1"
+              d="M0,288L1440,64L1440,0L0,0Z"
+            ></path>
+          </svg>
+        </div>
+        <div class="home_banner_wrapper">
+          <div class="home_banner_content">
+            <h1>
+              Your business tools,
+              <span class="colored">all in one place.</span>
+            </h1>
+            <p>
+              Pocopay is a comprehensive platform that helps you run your
+              business. We offer all the tools necessary to manage your business
+              from bookkeeping, inventory, and accounting to invoicing, sales
+              and sending money.
+            </p>
+            <a href="#get_app">
+              <!-- <a href="https://forms.gle/sMdx1b3F9y8rHXoaA" target="_blank"> -->
+              <button class="primary_button">Get Started</button>
+            </a>
+          </div>
+          <div class="home_banner_image">
+            <!-- <img src="./assets/images/hero/1.png" alt="hero" />
+            <img src="./assets/images/hero/2.png" alt="hero" /> -->
+            <img
+              src="./assets/images/mockup/download-1.png"
+              className="about-block-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner section end -->
+    <!-- partners section start -->
+    <section class="partners">
+      <div class="container">
+        <p>Our Partners</p>
+        <div class="partners_wrapper">
+          <div class="partner_item">
+            <img src="./assets/images/partners/monnify.svg" alt="monnify" />
+          </div>
+          <div class="partner_item">
+            <img src="./assets/images/partners/dojah.svg" alt="dojah" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- partners section end -->
+    <!-- features section start -->
+    <section class="features">
+      <div class="container">
+        <div class="features_wrapper">
+          <h2>Manage your business like a pro</h2>
+          <p>
+            Everything is in one place - all our features are designed to make
+            running a business easier than ever before. We save you time and
+            money by providing a complete end-to-end solution that works for all
+            kinds of business
+          </p>
+          <div class="features_content">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-all-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-all"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-all"
+                  aria-selected="true"
+                >
+                  All
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-enterprise-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-enterprise"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-enterprise"
+                  aria-selected="false"
+                >
+                  Enterprise
+                </button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-ecommerce-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-ecommerce"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-ecommerce"
+                  aria-selected="false"
+                >
+                  E-commerce
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active pills_all_tab"
+                id="pills-all"
+                role="tabpanel"
+                aria-labelledby="pills-all-tab"
+                tabindex="0"
+              >
+                <div class="feature_left">
+                  <div class="feature_item">
+                    <span>Payment</span>
+                    <h3>Send and receive money</h3>
+                    <p>
+                      With our payment link, storefront and invoicing feature,
+                      You can receive payments from your customers with ease
+                    </p>
+                  </div>
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/payment.svg"
+                      alt="payment"
+                    />
+                  </div>
+                </div>
+                <div class="feature_right">
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/bookkeeping.svg"
+                      alt="bookkeeping"
+                    />
+                  </div>
+                  <div class="feature_item">
+                    <span>Bookkeeping</span>
+                    <h3>Record Sales</h3>
+                    <p>
+                      No more paperwork! Easily monitor cash flow, track
+                      expenses, and maintain accurate financial records—all on
+                      Pocopay's integrated platform.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature_left">
+                  <div class="feature_item">
+                    <span>Storefront</span>
+                    <h3>Set up your store</h3>
+                    <p>
+                      Showcase, manage and sell your products online for free
+                      using Pocopay
+                    </p>
+                  </div>
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/storefront.svg"
+                      alt="storefront"
+                    />
+                  </div>
+                </div>
+                <div class="feature_right">
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/paylink.svg"
+                      alt="paylink"
+                    />
+                  </div>
+                  <div class="feature_item">
+                    <span>Paylink</span>
+                    <h3>One-time and reccuring payment links</h3>
+                    <p>
+                      Boost sales effortlessly with Pocopay's Paylink feature.
+                      Create one-time or recurring payment links in seconds,
+                      giving your customers the convenience they crave.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature_left">
+                  <div class="feature_item">
+                    <span class="coming_soon">coming soon</span>
+                    <span>CRM</span>
+                    <h3>Manage your customers</h3>
+                    <p>
+                      Managing customers just got easy! Organize your contacts
+                      and strengthen customer relationships with ease using
+                      Pocopay.
+                    </p>
+                  </div>
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/crm.svg"
+                      alt="crm"
+                    />
+                  </div>
+                </div>
+
+                <!-- <div class="feature_left">
+                  <div class="feature_item">
+                    <span class="coming_soon">coming soon</span>
+                    <span>Budget Tracker</span>
+                    <h3>Manage your expenses</h3>
+                    <p>
+                      Stay on top of your spending with Pocopay's Budget
+                      Tracker. Easily manage expenses, track your spending, and
+                      stay on budget.
+                    </p>
+                  </div>
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/budget.svg"
+                      alt="budget"
+                    />
+                  </div>
+                </div> -->
+                <div class="feature_right">
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/loans.svg"
+                      alt="loans"
+                    />
+                  </div>
+                  <div class="feature_item">
+                    <span class="coming_soon">coming soon</span>
+                    <span>Micro Loans</span>
+                    <h3>Get loans for your business</h3>
+                    <p>Access quick and flexible loans to grow your business</p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade pills_enterprise_tab"
+                id="pills-enterprise"
+                role="tabpanel"
+                aria-labelledby="pills-enterprise-tab"
+                tabindex="0"
+              >
+                <div class="feature_right">
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/loans.svg"
+                      alt="loans"
+                    />
+                  </div>
+                  <div class="feature_item">
+                    <span class="coming_soon">coming soon</span>
+                    <span>Micro Loans</span>
+                    <h3>Get loans for your business</h3>
+                    <p>Access quick and flexible loans to grow your business</p>
+                  </div>
+                </div>
+                <div class="feature_left">
+                  <div class="feature_item">
+                    <span>Payment</span>
+                    <h3>Send and receive money</h3>
+                    <p>
+                      With our payment link, storefront and invoicing feature,
+                      You can receive payments from your customers with ease
+                    </p>
+                  </div>
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/payment.svg"
+                      alt="payment"
+                    />
+                  </div>
+                </div>
+                <div class="feature_right">
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/paylink.svg"
+                      alt="paylink"
+                    />
+                  </div>
+                  <div class="feature_item">
+                    <span>Paylink</span>
+                    <h3>One-time and reccuring payment links</h3>
+                    <p>
+                      Boost sales effortlessly with Pocopay's Paylink feature.
+                      Create one-time or recurring payment links in seconds,
+                      giving your customers the convenience they crave.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- <div class="feature_right">
+                  <div class="feature_image"></div>
+                  <div class="feature_item">
+                    <span class="coming_soon">coming soon</span>
+                    <span>Payroll</span>
+                    <h3>Set employee reccurring payments</h3>
+                    <p>
+                      Simplify your payroll tasks and save valuable time with
+                      Pocopay's recurring payment feature.
+                    </p>
+                  </div>
+                </div> -->
+              </div>
+
+              <div
+                class="tab-pane fade pills_ecommerce_tab"
+                id="pills-ecommerce"
+                role="tabpanel"
+                aria-labelledby="pills-ecommerce-tab"
+                tabindex="0"
+              >
+                <div class="feature_left">
+                  <div class="feature_item">
+                    <span>Storefront</span>
+                    <h3>Set up your store</h3>
+                    <p>
+                      Showcase, manage and sell your products online for free
+                      using Pocopay
+                    </p>
+                  </div>
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/storefront.svg"
+                      alt="storefront"
+                    />
+                  </div>
+                </div>
+                <div class="feature_right">
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/bookkeeping.svg"
+                      alt="bookkeeping"
+                    />
+                  </div>
+                  <div class="feature_item">
+                    <span>Bookkeeping</span>
+                    <h3>Record Sales</h3>
+                    <p>
+                      No more paperwork! Easily monitor cash flow, track
+                      expenses, and maintain accurate financial records—all on
+                      Pocopay's integrated platform.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="feature_left">
+                  <div class="feature_item">
+                    <span class="coming_soon">coming soon</span>
+                    <span>CRM</span>
+                    <h3>Manage your customers</h3>
+                    <p>
+                      Managing customers just got easy! Organize your contacts
+                      and strengthen customer relationships with ease using
+                      Pocopay.
+                    </p>
+                  </div>
+                  <div class="feature_image">
+                    <img
+                      src="./assets/images/illustrations/crm.svg"
+                      alt="crm"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- features section end -->
+    <!-- steps to use app section start -->
+    <div class="steps">
+      <div class="container">
+        <h2>Start managing your business in 3 steps</h2>
+        <div class="steps_wrapper">
+          <div class="steps_image">
+            <img
+              src="./assets/images/mockup/download-1.png"
+              className="about-block-image"
+            />
+          </div>
+          <div class="steps_content">
+            <ul>
+              <li>
+                <span>1</span>
+                <h4>Download the app</h4>
+                <p>
+                  Pocopay mobile app is available for download on android and
+                  iOS devices.
+                </p>
+              </li>
+              <li>
+                <span>2</span>
+                <h4>Verify your account</h4>
+                <p>
+                  Verify your account in less than 2mins, this is needed for
+                  compliance purposes and gives you access to all pocopay's
+                  amazing features.
+                </p>
+              </li>
+              <li>
+                <span>3</span>
+                <h4>Manage your business</h4>
+                <p>Take your business to the next level with pocopay.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- steps to use app section end -->
+    <!-- get app section start -->
+    <section class="get_app" id="get_app">
+      <svg
+        class="wave"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#f3f4f5"
+          fill-opacity="1"
+          d="M0,64L60,53.3C120,43,240,21,360,42.7C480,64,600,128,720,170.7C840,213,960,235,1080,213.3C1200,192,1320,128,1380,96L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+      <svg
+        class="wave"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#f3f4f5"
+          fill-opacity="1"
+          d="M0,32L48,74.7C96,117,192,203,288,224C384,245,480,203,576,192C672,181,768,203,864,218.7C960,235,1056,245,1152,250.7C1248,256,1344,256,1392,256L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+
+      <div class="container">
+        <div class="get_app_wrapper">
+          <div class="get_app_content">
+            <h2>Take control of your business and payments</h2>
+            <p>Download pocopay app and give yourself tools for success</p>
+            <a href="#" target="_blank" class="app_store">
+              <img src="./assets/images/appstore.png" alt="appstore" />
+              <!-- <button class="primary_button"></button> -->
+            </a>
+            <a href="#" target="_blank" class="play_store">
+              <img src="./assets/images/playstore.png" alt="appstore" />
+              <!-- <button class="primary_button">Play Store</button> -->
+            </a>
+          </div>
+          <div class="get_app_image">
+            <img src="./assets/images/mockup/Phone.png" alt="app_image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- get app section end -->
+
+    <!-- faq section start -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2>Frequently asked questions</h2>
+        <div class="faq_wrapper">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  <h4>
+                    Is there a minimum or a maximum number of transactions I can
+                    record daily?
+                  </h4>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  There is no limit to the number of transactions you can record
+                  on the Pocopay app.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  <h4>
+                    Is there a minimum or a maximum number of transactions I can
+                    record daily?
+                  </h4>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  There is no limit to the number of transactions you can record
+                  on the Pocopay app.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  <h4>
+                    Is there a minimum or a maximum number of transactions I can
+                    record daily?
+                  </h4>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  There is no limit to the number of transactions you can record
+                  on the Pocopay app.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- faq section end -->
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <div class="footer_wrapper">
+          <div class="footer_content">
+            <div class="footer_left">
+              <div class="logo">
+                <img src="./assets/images/logo/8.png" alt="logo" />
+              </div>
+              <p>Management and payment software for your business.</p>
+              <a href="#" target="_blank" class="app_store">
+                <img src="./assets/images/appstore.png" alt="appstore" />
+              </a>
+              <a href="#" target="_blank" class="play_store">
+                <img src="./assets/images/playstore.png" alt="appstore" />
+              </a>
+            </div>
+            <div class="footer_right">
+              <ul>
+                <li class="footer_title">Features</li>
+                <li>Payment</li>
+                <li>Bookkeeping</li>
+                <li>Storefront</li>
+                <li>Paylink</li>
+                <li>CRM</li>
+                <li>Micro loan</li>
+                <!-- <li>Budget Tracker</li> -->
+              </ul>
+              <ul>
+                <li class="footer_title">Company</li>
+                <li><a href="#">About</a></li>
+                <!-- <li><a href="#">Contact Us</a></li> -->
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+              <ul>
+                <li class="footer_title">Contact</li>
+                <li><a href="#">support@pocopay.co</a></li>
+                <li><a href="#">+234 704 866 7650</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_bottom">
+            <p>©2022 Pocopay</p>
+            <ul class="footer_socials">
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/pocopay-app/"
+                  target="_blank"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    fill="rgb(55, 180, 126)"
+                    viewBox="0 0 256 256"
+                  >
+                    <rect width="256" height="256" fill="none"></rect>
+                    <rect
+                      x="36"
+                      y="36"
+                      width="184"
+                      height="184"
+                      rx="8"
+                      fill="none"
+                      stroke="rgb(55, 180, 126)"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></rect>
+                    <line
+                      x1="120"
+                      y1="112"
+                      x2="120"
+                      y2="176"
+                      fill="none"
+                      stroke="rgb(55, 180, 126)"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></line>
+                    <line
+                      x1="88"
+                      y1="112"
+                      x2="88"
+                      y2="176"
+                      fill="none"
+                      stroke="rgb(55, 180, 126)"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></line>
+                    <path
+                      d="M120,140a28,28,0,0,1,56,0v36"
+                      fill="none"
+                      stroke="rgb(55, 180, 126)"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></path>
+                    <circle cx="88" cy="80" r="12"></circle>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/pocopay" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    fill="rgb(55, 180, 126)"
+                    viewBox="0 0 256 256"
+                  >
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path
+                      d="M128,88c0-22,18.5-40.3,40.5-40a40,40,0,0,1,36.2,24H240l-32.3,32.3A127.9,127.9,0,0,1,80,224c-32,0-40-12-40-12s32-12,48-36c0,0-64-32-48-120,0,0,40,40,88,48Z"
+                      fill="none"
+                      stroke="rgb(55, 180, 126)"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    fill="rgb(55, 180, 126)"
+                    viewBox="0 0 256 256"
+                  >
+                    <rect width="256" height="256" fill="none"></rect>
+                    <circle
+                      cx="128"
+                      cy="128"
+                      r="40"
+                      fill="none"
+                      stroke="rgb(55, 180, 126)"
+                      stroke-miterlimit="10"
+                      stroke-width="16"
+                    ></circle>
+                    <rect
+                      x="36"
+                      y="36"
+                      width="184"
+                      height="184"
+                      rx="48"
+                      fill="none"
+                      stroke="rgb(55, 180, 126)"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></rect>
+                    <circle cx="180" cy="76" r="12"></circle>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="./js/features.js"></script>
+    <script src="./index.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/gsap.js"></script>
+  </body>
+</html>
