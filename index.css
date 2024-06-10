@@ -256,6 +256,7 @@ nav {
   transition: all 500ms linear;
   background: var(--white);
   padding-bottom: 5rem;
+  overflow: hidden;
 }
 .home_header > .container > nav > .nav_list > li > a {
   display: block;
